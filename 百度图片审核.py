@@ -13,12 +13,7 @@ DHT = input("输入文件路径: ")
 
 dir_files = os.listdir(DHT)
 print('当前有', len(dir_files), '个图片文件', dir_files)
-"""J:\rukis
-print('\n文件包括')
-for file in dir_files:
-    if file.endswith(('.png', '.jpg', '.bat', '.txt', '.zip')):
-        print(file)
-"""
+
 #判断有无文件冲突
 while True:
     Nkme = os.path.join(input("输入新建文件路径与名字: "))  # 自定义文件夹输入地址+DHT
